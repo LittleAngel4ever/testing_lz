@@ -1,6 +1,6 @@
 import math
 
-def logarimf(f, g, h):
+def logarifm(f, g, h):
     result = (math.log2(f) + g / (h - 1))
     return result
 
@@ -18,7 +18,7 @@ def main():
     if h == 1:
         print("h - 1 = 0, division by zero")
         raise SystemExit
-    print(function(f, g, h))
+    print(logarifm(f, g, h))
 
 
 if __name__ == "__main__":

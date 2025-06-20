@@ -3,8 +3,7 @@ class Except(Exception):
 
 import math
 
-
-def logarimf(f, g, h):
+def logarifm(f, g, h):
     try:
         if f <= 0:
             raise Except
@@ -20,7 +19,7 @@ def logarimf(f, g, h):
     return result
 
 def main():
-    print(logarimf(" ", " ", " "))
+    print(logarifm(" ", " ", " "))
 
 if __name__ == "__main__":
     main()
